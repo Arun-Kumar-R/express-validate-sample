@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "53c5ec37-6801-442f-8da3-c849b118b1a1",
+		"name": "Express Validator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Author",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/author/create-author",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"author",
+						"create-author"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
